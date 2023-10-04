@@ -13,5 +13,3 @@ EXPOSE 8080
 
 #RUN go mod tidy
 RUN go mod tidy
-
-CMD ["air", "cmd/main.go", "-b", "0.0.0.0"]
